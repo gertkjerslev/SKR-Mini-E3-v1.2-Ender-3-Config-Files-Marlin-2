@@ -7,7 +7,7 @@ This repository contains Marlin custom config files for Creality Ender 3 printer
 ### Hardware:
 The BL Touch is connected to the Z end Stop
 
-![](https://i.imgur.com/8eEEUF9.jpg)
+![](https://i.imgur.com/BRJQne9.jpg)
 
 
 ### Software:
