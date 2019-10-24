@@ -8,7 +8,7 @@ This repository contains Marlin custom config files for Creality Ender 3 printer
 2. Copy files from folder **\Marlin** in this repository to the folder **\Marlin** in your firmware root folder.
 3. Compile the software and flash the board.
 
-##The changes made to the Configuration.h file:
+## The changes made to the Configuration.h file:
 
 '#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN'
 
@@ -29,7 +29,7 @@ This repository contains Marlin custom config files for Creality Ender 3 printer
 
 
 
-##The changes made to the Configuration.h file:
+## The changes made to the Configuration.h file:
 
 #define BLTOUCH_DELAY 500
 #define BABYSTEP_MULTIPLICATOR  10
