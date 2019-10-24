@@ -1,8 +1,16 @@
 # Ender-3/SKR Mini E3 v1.2 Config Files
 
-This repository contains Marlin custom config files for Creality Ender 3 printers with a BIGTREETECH SKR Mini E3 v1.2 motherboard with BL touch.
+This repository contains Marlin custom config files for Creality Ender 3 printers with a BIGTREETECH SKR Mini E3 v1.2 motherboard with BL touch. 
 
 ## Installation guide for Printers with BL Touch
+
+### Hardware:
+The BL Touch is connected to the Z end Stop
+
+![](https://i.imgur.com/8eEEUF9.jpg)
+
+
+### Software:
 
 1. Get the latest Marlin bugfix-2.0.x from the BIGTREETECH github for the v1.2 board here: https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/tree/master/firmware/V1.2.
 2. Copy files from folder **\Marlin** in this repository to the folder **\Marlin** in your firmware root folder.
