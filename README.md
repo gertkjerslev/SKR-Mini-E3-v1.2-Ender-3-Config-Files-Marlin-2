@@ -26,7 +26,7 @@ This repository contains Marlin custom config files for Creality Ender 3 printer
 
 #define NUM_SERVOS 1
 
-## The changes made to the Configuration.h file:
+## The changes made to the Configuration_adv.h file:
 
 #define BLTOUCH_DELAY 500
 
