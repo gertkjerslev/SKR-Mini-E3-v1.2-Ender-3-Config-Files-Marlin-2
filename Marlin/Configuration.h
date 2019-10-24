@@ -880,9 +880,6 @@
  */
 //#define TOUCH_MI_PROBE
 
-  //#define SERVO0_PIN       P2_00
-
-
 #if ENABLED(TOUCH_MI_PROBE)
   #define TOUCH_MI_RETRACT_Z 0.5                  // Height at which the probe retracts
   //#define TOUCH_MI_DEPLOY_XPOS (X_MAX_BED + 2)  // For a magnet on the right side of the bed
@@ -927,7 +924,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -40, -8.6, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -40, -8.6, 0 } //Remember to set this correct
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
